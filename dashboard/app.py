@@ -2,8 +2,37 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import os
 import warnings
 warnings.filterwarnings('ignore')
+
+# ============================================
+# CLOUD DEPLOYMENT: Set up file paths
+# ============================================
+
+# Get the directory where this file is located
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(file)))
+
+# Define paths for data and outputs
+DATA_DIR = os.path.join(BASE_DIR, 'data', 'raw')
+OUTPUT_DIR = os.path.join(BASE_DIR, 'outputs')
+
+# For cloud deployment, use relative paths
+def get_data_path(filename):
+    """Get path to data file - works locally and in cloud"""
+    # Try current directory first (for cloud)
+    if os.path.exists(filename):
+        return filename
+    # Try data directory
+    data_path = os.path.join(DATA_DIR, filename)
+    if os.path.exists(data_path):
+        return data_path
+    # Try raw directory
+    raw_path = os.path.join(BASE_DIR, 'data', 'raw', filename)
+    if os.path.exists(raw_path):
+        return raw_path
+    # Return default
+    return os.path.join('data', 'raw', filename)
 
 # Page config
 st.set_page_config(
