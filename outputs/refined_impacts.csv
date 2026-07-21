@@ -1,0 +1,11 @@
+event_name,indicator_code,impact_direction,refined_magnitude,lag_months,confidence
+Telebirr Launch,ACC_OWNERSHIP,positive,3.0,12.0,medium
+Telebirr Launch,ACC_MM_ACCOUNT,positive,4.2749999999999995,6.0,high
+Telebirr Launch,USG_DIGITAL_PAYMENT,positive,4.0,12.0,medium
+M-Pesa Launch,ACC_MM_ACCOUNT,positive,3.0,6.0,high
+EthSwitch Interoperability,USG_DIGITAL_PAYMENT,positive,2.0,6.0,medium
+EthSwitch Interoperability,ACC_OWNERSHIP,positive,1.0,12.0,low
+Fayda Digital ID,INF_4G_COVERAGE,positive,2.0,12.0,medium
+Merchant Payment Regulation,USG_DIGITAL_PAYMENT,positive,1.5,6.0,medium
+Agent Banking Expansion,ACC_OWNERSHIP,positive,1.0,12.0,low
+Agent Banking Expansion,INF_MOBILE_PEN,positive,3.0,6.0,medium

@@ -1,0 +1,56 @@
+record_id,record_type,pillar,indicator,indicator_code,value_numeric,value_text,observation_date,source_name,source_url,category,parent_id,impact_direction,impact_magnitude,lag_months,evidence_basis,confidence
+OBS_001,observation,access,Account Ownership,ACC_OWNERSHIP,14.0,,2011-01-01,World Bank Findex,https://worldbank.org/globalfindex,,,,,,,high
+OBS_002,observation,access,Account Ownership,ACC_OWNERSHIP,22.0,,2014-01-01,World Bank Findex,https://worldbank.org/globalfindex,,,,,,,high
+OBS_003,observation,access,Account Ownership,ACC_OWNERSHIP,35.0,,2017-01-01,World Bank Findex,https://worldbank.org/globalfindex,,,,,,,high
+OBS_004,observation,access,Account Ownership,ACC_OWNERSHIP,46.0,,2021-01-01,World Bank Findex,https://worldbank.org/globalfindex,,,,,,,high
+OBS_005,observation,access,Account Ownership,ACC_OWNERSHIP,49.0,,2024-01-01,World Bank Findex,https://worldbank.org/globalfindex,,,,,,,high
+OBS_006,observation,access,Mobile Money Account,ACC_MM_ACCOUNT,4.7,,2021-01-01,World Bank Findex,https://worldbank.org/globalfindex,,,,,,,high
+OBS_007,observation,access,Mobile Money Account,ACC_MM_ACCOUNT,9.45,,2024-01-01,World Bank Findex,https://worldbank.org/globalfindex,,,,,,,high
+OBS_008,observation,usage,Digital Payment Adoption,USG_DIGITAL_PAYMENT,35.0,,2024-01-01,World Bank Findex,https://worldbank.org/globalfindex,,,,,,,medium
+OBS_009,observation,usage,Mobile Money Transaction,USG_MM_TRANSACTIONS,2.1,,2021-01-01,GSMA Report,https://gsma.com/sotir,,,,,,,medium
+OBS_010,observation,usage,Mobile Money Transaction,USG_MM_TRANSACTIONS,7.8,,2024-01-01,GSMA Report,https://gsma.com/sotir,,,,,,,medium
+OBS_011,observation,infrastructure,4G Coverage,INF_4G_COVERAGE,45.0,,2021-01-01,ITU,https://itu.int,,,,,,,high
+OBS_012,observation,infrastructure,4G Coverage,INF_4G_COVERAGE,65.0,,2024-01-01,ITU,https://itu.int,,,,,,,high
+OBS_013,observation,infrastructure,Mobile Penetration,INF_MOBILE_PEN,35.0,,2014-01-01,ITU,https://itu.int,,,,,,,high
+OBS_014,observation,infrastructure,Mobile Penetration,INF_MOBILE_PEN,45.0,,2017-01-01,ITU,https://itu.int,,,,,,,high
+OBS_015,observation,infrastructure,Mobile Penetration,INF_MOBILE_PEN,55.0,,2021-01-01,ITU,https://itu.int,,,,,,,high
+OBS_016,observation,infrastructure,Mobile Penetration,INF_MOBILE_PEN,65.0,,2024-01-01,ITU,https://itu.int,,,,,,,high
+OBS_017,observation,infrastructure,ATM Density,INF_ATM_DENSITY,3.5,,2014-01-01,IMF FAS,https://data.imf.org/FAS,,,,,,,medium
+OBS_018,observation,infrastructure,ATM Density,INF_ATM_DENSITY,4.2,,2017-01-01,IMF FAS,https://data.imf.org/FAS,,,,,,,medium
+OBS_019,observation,infrastructure,ATM Density,INF_ATM_DENSITY,4.8,,2021-01-01,IMF FAS,https://data.imf.org/FAS,,,,,,,medium
+OBS_020,observation,infrastructure,ATM Density,INF_ATM_DENSITY,5.5,,2024-01-01,IMF FAS,https://data.imf.org/FAS,,,,,,,medium
+OBS_021,observation,access,Gender Gap Access,ACC_GENDER_GAP,8.0,,2021-01-01,World Bank Findex,https://worldbank.org/globalfindex,,,,,,,high
+OBS_022,observation,access,Gender Gap Access,ACC_GENDER_GAP,5.0,,2024-01-01,World Bank Findex,https://worldbank.org/globalfindex,,,,,,,high
+OBS_023,observation,access,Urban Account Ownership,ACC_URBAN,55.0,,2021-01-01,World Bank Findex,https://worldbank.org/globalfindex,,,,,,,high
+OBS_024,observation,access,Urban Account Ownership,ACC_URBAN,60.0,,2024-01-01,World Bank Findex,https://worldbank.org/globalfindex,,,,,,,high
+OBS_025,observation,access,Rural Account Ownership,ACC_RURAL,35.0,,2021-01-01,World Bank Findex,https://worldbank.org/globalfindex,,,,,,,high
+OBS_026,observation,access,Rural Account Ownership,ACC_RURAL,38.0,,2024-01-01,World Bank Findex,https://worldbank.org/globalfindex,,,,,,,high
+OBS_027,observation,infrastructure,Agent Density,INF_AGENT_DENSITY,12.0,,2021-01-01,NBE Report,https://nbe.govet,,,,,,,medium
+OBS_028,observation,infrastructure,Agent Density,INF_AGENT_DENSITY,25.0,,2024-01-01,NBE Report,https://nbe.govet,,,,,,,medium
+OBS_029,observation,infrastructure,Internet Penetration,INF_INTERNET_PEN,25.0,,2021-01-01,ITU,https://itu.int,,,,,,,high
+OBS_030,observation,infrastructure,Internet Penetration,INF_INTERNET_PEN,38.0,,2024-01-01,ITU,https://itu.int,,,,,,,high
+EVT_001,event,,,,,Telebirr Launch,2021-05-01,Ethio Telecom,https://ethiotelecom.et,product_launch,,,,,,high
+EVT_002,event,,,,,Safaricom Market Entry,2022-08-01,Shega Media,https://shega.co,market_entry,,,,,,high
+EVT_003,event,,,,,M-Pesa Launch,2023-08-01,Safaricom,https://safaricom.com,product_launch,,,,,,high
+EVT_004,event,,,,,National Financial Inclusion Strategy II,2021-01-01,NBE,https://nbe.govet,policy,,,,,,high
+EVT_005,event,,,,,EthSwitch Interoperability,2022-06-01,EthSwitch,https://ethswitch.com,infrastructure,,,,,,high
+EVT_006,event,,,,,Fayda Digital ID Launch,2022-09-01,ID Office,https://id.govet,infrastructure,,,,,,medium
+EVT_007,event,,,,,P2P Transfers Surpass ATM,2024-01-01,NBE,https://nbe.govet,milestone,,,,,,medium
+EVT_008,event,,,,,Merchant Payment Regulation,2023-03-01,NBE,https://nbe.govet,policy,,,,,,medium
+EVT_009,event,,,,,Agent Banking Expansion,2022-01-01,NBE,https://nbe.govet,infrastructure,,,,,,medium
+EVT_010,event,,,,,Digital Payment Infrastructure Investment,2023-06-01,EthSwitch,https://ethswitch.com,infrastructure,,,,,,medium
+TGT_001,target,access,Account Ownership,ACC_OWNERSHIP,60.0,,2030-01-01,NBE,https://nbe.govet,policy,,,,,,medium
+IL_001,impact_link,access,Account Ownership,ACC_OWNERSHIP,,,2021-05-01,Modeled,,product_launch,EVT_001,positive,3.0,12.0,Based on Telebirr launch effect on account ownership,medium
+IL_002,impact_link,access,Mobile Money Account,ACC_MM_ACCOUNT,,,2021-05-01,Modeled,,product_launch,EVT_001,positive,5.0,6.0,Based on Telebirr launch effect on mobile money accounts,high
+IL_003,impact_link,usage,Digital Payment Adoption,USG_DIGITAL_PAYMENT,,,2021-05-01,Modeled,,product_launch,EVT_001,positive,4.0,12.0,Based on Telebirr launch effect on digital payments,medium
+IL_004,impact_link,access,Mobile Money Account,ACC_MM_ACCOUNT,,,2023-08-01,Modeled,,product_launch,EVT_003,positive,3.0,6.0,Based on M-Pesa launch effect on mobile money accounts,high
+IL_005,impact_link,usage,Digital Payment Adoption,USG_DIGITAL_PAYMENT,,,2022-06-01,Modeled,,infrastructure,EVT_005,positive,2.0,6.0,Based on interoperability effect on digital payments,medium
+IL_006,impact_link,access,Account Ownership,ACC_OWNERSHIP,,,2022-06-01,Modeled,,infrastructure,EVT_005,positive,1.0,12.0,Based on interoperability effect on account ownership,low
+IL_007,impact_link,infrastructure,4G Coverage,INF_4G_COVERAGE,,,2022-09-01,Modeled,,infrastructure,EVT_006,positive,2.0,12.0,Based on digital ID launch effect on digital readiness,medium
+IL_008,impact_link,usage,Digital Payment Adoption,USG_DIGITAL_PAYMENT,,,2023-03-01,Modeled,,policy,EVT_008,positive,1.5,6.0,Based on merchant payment regulation effect on digital payments,medium
+IL_009,impact_link,access,Account Ownership,ACC_OWNERSHIP,,,2022-01-01,Modeled,,infrastructure,EVT_009,positive,1.0,12.0,Based on agent banking expansion effect on account ownership,low
+IL_010,impact_link,infrastructure,Mobile Penetration,INF_MOBILE_PEN,,,2022-01-01,Modeled,,infrastructure,EVT_009,positive,3.0,6.0,Based on agent banking expansion effect on mobile penetration,medium
+IL_011,impact_link,infrastructure,Internet Penetration,INF_INTERNET_PEN,,,2023-06-01,Modeled,,infrastructure,EVT_010,positive,2.0,12.0,Based on digital payment infrastructure investment effect on internet penetration,medium
+IL_012,impact_link,usage,Digital Payment Adoption,USG_DIGITAL_PAYMENT,,,2022-08-01,Modeled,,market_entry,EVT_002,positive,1.0,12.0,Based on Safaricom entry effect on digital payments,low
+IL_013,impact_link,access,Gender Gap Access,ACC_GENDER_GAP,,,2022-09-01,Modeled,,infrastructure,EVT_006,negative,0.5,18.0,Based on digital ID launch effect on gender gap,low
+IL_014,impact_link,infrastructure,ATM Density,INF_ATM_DENSITY,,,2024-01-01,Modeled,,milestone,EVT_007,negative,0.2,0.0,Based on P2P surpassing ATM effect on ATM density,low
