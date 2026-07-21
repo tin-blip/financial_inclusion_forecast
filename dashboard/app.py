@@ -11,7 +11,7 @@ warnings.filterwarnings('ignore')
 # ============================================
 
 # Get the directory where this file is located
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(file)))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Define paths for data and outputs
 DATA_DIR = os.path.join(BASE_DIR, 'data', 'raw')
